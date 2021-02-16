@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>부트스트랩</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <style>
+       .col-sm-6, .col-sm-4, .col-md-4 {border : 1px solid red;} 
+    </style>
+</head>
+<body>
+    <!--레이아웃은 한 줄에 12개
+    col-sm : 768px      col-md : 970px
+    col-lg : 1170px     xol-xs : 768px보다 작을 때-->
+    <div class="container">
+        <!--768px이하에서는 1개 768이상에서는 2개 970이상은 3개-->
+        <div class="col-sm-6 col-md-4">첫번째</div>
+        <div class="col-sm-6 col-md-4">두번째</div>
+        <div class="col-sm-6 col-md-4">세번째</div>
+    </div>
+</body>
+</html>
